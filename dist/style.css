@@ -65,3 +65,17 @@
 @media(min-width:1501px) and (max-width:1750px){header{flex-wrap:wrap;gap:16px}header nav{order:4;width:100%;justify-content:center}.language-switch{margin-left:auto}}
 
 .insights-strip{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:25px 6vw;border-top:1px solid #dbe6e3;border-bottom:1px solid #dbe6e3;background:#f8faf9}.insights-strip p{margin:0;max-width:none;font-size:15px;line-height:1.6}.insights-strip a{flex-shrink:0;color:#086c63}@media(max-width:700px){.insights-strip{flex-direction:column;align-items:flex-start;gap:10px;padding:24px 6vw}}
+
+/* Local preview: Perspectives article list */
+.perspectives-section{max-width:1200px;padding-top:28px;padding-bottom:40px}
+.perspectives-grid{display:block;border-top:1px solid #c9dcd6}
+.perspective-card{border:0;border-bottom:1px solid #c9dcd6;border-radius:0;padding:28px 0;display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:36px;align-items:start}
+.perspective-card>div{grid-column:1;grid-row:1}
+.perspective-card>div>span{font-size:11px;margin-bottom:10px}
+.perspective-card h2{font-size:clamp(23px,2.2vw,30px);max-width:850px;line-height:1.2}
+.post-preview{font-size:16px;line-height:1.6;margin:12px 0 0;max-width:80ch}
+.perspective-card details{grid-column:1/-1;grid-row:2;margin-top:14px}
+.perspective-card summary{border:0;padding:6px 0;font-size:14px}
+.post-social{grid-column:2;grid-row:1;margin:29px 0 0;font-size:13px;white-space:nowrap}
+.post-body{max-width:80ch;padding-top:10px}
+@media(max-width:700px){.perspective-card{display:block;padding:24px 0}.post-social{margin-top:14px}.perspective-card h2{font-size:25px}}
