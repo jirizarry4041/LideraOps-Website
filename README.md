@@ -4,8 +4,10 @@ Static bilingual website for Lidera Operations Advisory, founded by Joel Irizarr
 
 ## Files
 
-- `dist/index.html`: English page.
-- `dist/es.html`: Spanish page.
+- `dist/index.html` / `dist/es.html`: English and Spanish homepages.
+- `dist/services.html` / `dist/servicios.html`: Services.
+- `dist/case-studies.html` / `dist/casos-de-estudio.html`: Case studies from Joel’s prior leadership experience.
+- `dist/perspectives.html` / `dist/perspectivas.html`: Selected publications, kept in English on both versions.
 - `dist/style.css`: shared styles.
 - `dist/img/`: logo and photographs.
 
@@ -13,12 +15,14 @@ Static bilingual website for Lidera Operations Advisory, founded by Joel Irizarr
 
 Run `python3 -m http.server 8000 --directory dist` and open http://localhost:8000.
 
-No installation or build step is required. Edit the HTML and CSS directly.
+No installation or build step is required.
 
 ## Hosting
 
-The existing ChatGPT Site is published separately. Uploading this repository does not enable GitHub Pages or automatically synchronize it with Sites.
+Production hosting is on Netlify for LideraOps.com. Use branch `main`, publish directory `dist`, and no build command. If continuous deployment is enabled, pushes to main trigger publication.
 
-The contact form is a draft and does not send submissions; the website currently directs visitors to LinkedIn.
+The ChatGPT Sites version is maintained separately; changes do not automatically synchronize between Sites and this repository.
 
-Imported from the published Sites source revision `054a8e6676715ca1c726923f9cfefe0c889875d7` on November 9, 2026.
+The contact form remains a draft and does not send submissions. Until activated and tested, visitors are directed to LinkedIn.
+
+Synced from Sites source revision `211b650cd3913a1e599d82ed2969b2dc219e90e1` on November 9, 2026.
